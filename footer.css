@@ -1,0 +1,69 @@
+.footer{
+  background: #000;
+}
+
+.footer-conteiner{
+    max-width: 1200px;
+    padding: 120px 20px 60px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+}
+
+.texto{
+    font-weight: 1.5;
+    font-size: 1.5rem;
+    color: #a3a3a3;
+}
+
+.roda{ 
+    grid-column: 1 / -1;
+    font-size: 1.125rem;
+    color: #8f8f8f;
+
+}
+.inicio{
+    color: #ffff;
+}
+
+.contatos{
+    color: #a3a3a3;
+    font-weight: 2;
+    font-size: 1.5rem;
+    line-height: 2rem
+}
+
+.contatos span{
+    color: #ffff;
+    font-weight: 1.5px;
+
+}
+
+.contatos-lista{
+    display: grid;
+
+}
+
+a{
+    color: #ffff;
+    font-weight: 1.5px;
+    text-decoration: none;
+}
+
+/* ANIMAÇÃO */
+.animaçao{
+    transition: all 300ms;
+    cursor: pointer;
+}
+.animaçao:hover{
+    color: #3a3a3a;
+}
+
+@media (max-width: 800px){
+    .footer-conteiner{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
